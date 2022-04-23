@@ -1,0 +1,82 @@
+#top-banner{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: blue;
+    width: 100vw;
+    height: 8vh;
+    z-index: -1;
+}
+.seasonDiv{
+    margin-top: 25px
+}
+#iframe{
+    position: relative;
+    top: 15%;
+    margin-top: 25px;
+    height: 74vh; 
+}
+.heading{
+    color: white;
+    margin-top: 5px;
+    font-size: 30px
+}
+#dd_btn{
+    position: absolute;
+    top:30vh;
+    left: 2.5vw;
+    padding: 10px 25px;
+}
+#dd{
+    position: absolute;
+    top:34vh;
+    left: 2.5vw;
+}
+.Episode{
+    padding: 10px 15px;
+}
+
+
+
+
+.box{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    height: fit-content;
+}
+.input {
+    padding: 10px;
+    width: 50px;
+    height: 60px;
+    background: none;
+    border: 4px solid black;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: black;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 350px;
+    background: lightgrey;
+    border-radius: 10px;
+}
+i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: black;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+

@@ -1,0 +1,17 @@
+{
+  "name": "moviewebsite",
+  "version": "1.0.0",
+  "description": "Watch Movies Online",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "jade": "^1.11.0",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
